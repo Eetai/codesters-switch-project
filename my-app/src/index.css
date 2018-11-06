@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.app {
+  display: flex;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+
+}
+
+.switchRow {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+}
+
+body{
+  font-family:sans-serif;
+  font-weight:100;
+}
+
+button {
+  height: 60px;
+  width: 80px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #3B5998;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+    opacity: .8
+}
+
+.menu-button {
+  height: 50px;
+  width: 120px;
+  font-weight: 600;
+}
+
+.switchedOff {
+  background-color: #FFDC00;
+  color: black;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.switchedOn {
+  background-color: #3B5998;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.metaLogic {
+  display: flex;
+  margin: 30px 0;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.metaContainer {
+  flex-direction: column;
+  text-align: center;
+}
+
+.metaLogic-select {
+  margin-top: 5px;
+  margin-right: 40px;
+  margin-bottom: -40px;
+}
+
+.switchStatus {
+  color: blue;
+  height: 50px;
+  width: 100px;
+  font-size: 30px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  text-align: center
+}
+
+select {
+  height: 40px;
+  width: 80px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.explainerText {
+  margin: 80px;
+  width: 1000px;
+}
+
+.rightBox {
+  flex-direction: row;
+  margin: 50px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15px 15px;
+  border-bottom: 1px solid gray;
+  margin: 10px;
+}
+
+.explainerTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.headerTitle {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.explainerTextContainer > div {
+  margin-bottom: 25px;
+}
+
+.circuit-text {
+  padding: 0px 30px;
+  margin: 15px;
+  background-color: #fff591;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.info-alert {
+  padding: 0 10px;
+  font-size: 100px;
+}
